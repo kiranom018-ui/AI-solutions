@@ -1,0 +1,6 @@
+const form=document.querySelector('#brief-form');
+const status=document.querySelector('#form-status');
+for(const a of document.querySelectorAll('[data-service]'))a.addEventListener('click',()=>{document.querySelector('#service').value=a.dataset.service;});
+function briefText(){const data=new FormData(form);return `James AI Solutions — project enquiry\nBusiness: ${data.get('business').trim()}\nService: ${data.get('service')}\nUseful result: ${data.get('problem').trim()}\nPlease confirm scope and price before work starts.`;}
+form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const url='https://wa.me/919019001934?text='+encodeURIComponent(briefText());const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.click();status.textContent='WhatsApp opens a prepared message. Review it there and choose whether to send.';});
+document.querySelector('#download').addEventListener('click',()=>{if(!form.reportValidity())return;const url=URL.createObjectURL(new Blob([briefText()],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='james-project-brief.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status.textContent='Your brief was downloaded. Nothing was submitted.';});
