@@ -10,7 +10,7 @@ urls=[]
 for f in out.glob('*.html'):
  s=f.read_text();title=re.search(r'<title>(.*?)</title>',s).group(1)
  if origin and f.name!='404.html':
-  url=origin+('/' if f.name=='index.html' else '/'+f.name);urls.append(url)
+  url=origin+('/' if f.name=='index.html' else '/'+f.stem);urls.append(url)
   meta='<link rel="canonical" href="'+url+'"><meta property="og:type" content="website"><meta property="og:site_name" content="James AI Solutions"><meta property="og:title" content="'+title+'"><meta property="og:url" content="'+url+'"><meta name="twitter:card" content="summary">'
   if f.name=='index.html':meta+='<script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@type':'Organization','name':'James AI Solutions','url':origin+'/'},separators=(',',':'))+'</script>'
  else:meta='<meta name="robots" content="noindex,follow">'
