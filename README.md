@@ -1,21 +1,30 @@
-# James AI Solutions website
-Static HTML/CSS/JavaScript website for James AI Solutions. No server, paid API, framework or package installation is required. This repository contains public website source only.
+# James AI Solutions — maintained company website
 
-## Recommended free hosting
-Cloudflare Pages, connected to this GitHub repository. Production branch: main. Build command: `python3 build.py`. Output directory: `dist`. Root directory: repository root. Set `SITE_URL` to the exact verified production origin after the Pages project is created, then redeploy. Without SITE_URL the review build is noindex and robots disallows crawling. This avoids publishing guessed canonical addresses.
+This repository is the single maintained source for the company website. Canonical company domain: https://jamesaisolutions.com/. Cloudflare Pages project: james-ai-solutions. GitHub source: kiranom018-ui/AI-solutions.
 
-GitHub Pages is technically capable of serving these static files; current GitHub limits restrict sites primarily facilitating commercial transactions. Use GitHub as source control and Cloudflare as the business host. No Pages deployment workflow is enabled here.
+## Structure
+- site/: public HTML, CSS, JavaScript, favicon and verification metadata.
+- build.py: copies source to dist/ and emits canonical metadata, organization schema, robots.txt and sitemap.xml.
+- check_site.py: validates page titles, headings, local links, fragment targets and schema syntax.
 
-## Local review
-Run `python3 build.py`, then `python3 -m http.server 8906 --directory dist --bind 127.0.0.1`. Set SITE_URL only for a confirmed production domain. Run `python3 check_site.py` to validate links, assets, headings and structured data.
+## Build and verify
+`SITE_URL=https://jamesaisolutions.com python3 build.py`
+`python3 check_site.py`
+`node --check site/app.js`
 
-## Domain
-No domain is purchased or configured. Do not add a CNAME for an unowned domain. After purchase, add the exact domain through Cloudflare Pages custom domains, follow the returned DNS instructions, verify HTTPS, set SITE_URL and redeploy. Redirect the alternate hostname to the canonical hostname. Submit the sitemap to Search Console after verifying ownership. No guaranteed indexing or ranking.
+For local review: `python3 -m http.server 8906 --directory dist --bind 127.0.0.1`.
+Source files remain editable without cloud APIs or a framework installation. Review builds without SITE_URL are noindex. Dist is generated and not a second source tree.
 
-## Privacy and service scope
-The form prepares a WhatsApp message or downloads a text brief. It does not store leads, send emails or collect payment. Existing company WhatsApp route is reused; confirm phone control and business payment details before outreach. No internal plans, customer files, prospect lists, credentials or revenue targets belong in this public repository.
+## Deployment
+The live project uses Cloudflare Pages Direct Upload. Package the contents of dist/ at ZIP root, then upload a new Production deployment through the existing project. GitHub commits do not automatically deploy. The connected Cloudflare GitHub account differs from this repository owner. A native Git integration would require a separate project; alternatively a scoped CI upload can be configured after credential approval. Do not invent credentials or extract browser sessions.
 
-## Sources checked 26 October 2026
-- https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits
-- https://developers.cloudflare.com/pages/platform/limits/
-- https://developers.google.com/search/docs/fundamentals/get-started-developers
+## Design and behaviour
+Dark charcoal, warm brown, ember red; lightweight canvas orbital sculpture, pointer-responsive cards, keyboard-operated studio tabs, service selector and reduced-motion/pause support. There are no third-party JavaScript libraries. Illustrative examples are labelled and do not claim customer outcomes.
+
+The enquiry form prepares a WhatsApp draft or downloads a text brief. It does not store leads or collect payment. Email routing status and outbound-mail acceptance are recorded separately in the private launch operations files. Phone: +91 90190 01934, reused from the founder's company source. No prospect lists, internal plans, credentials or customer data belong in this public repository.
+
+## Retired copies
+The old local brochure, company-site source and first sales site are archived in the founder's Google Drive under JAMES-Startup/Archive/Retired-Websites-2026-10-26. The obsolete james-company-website Docker container is stopped and automatic restart is disabled. Business applications remain separate.
+
+## Verification
+Production release evidence, DNS/email status, screenshots and the dated source backup are maintained in the private Google Drive launch folder. Google Search Console verification metadata is public by design. Do not remove it after ownership verification.

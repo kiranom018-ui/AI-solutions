@@ -12,7 +12,7 @@ for f in out.glob('*.html'):
  if origin and f.name!='404.html':
   url=origin+('/' if f.name=='index.html' else '/'+f.stem);urls.append(url)
   meta='<link rel="canonical" href="'+url+'"><meta property="og:type" content="website"><meta property="og:site_name" content="James AI Solutions"><meta property="og:title" content="'+title+'"><meta property="og:url" content="'+url+'"><meta name="twitter:card" content="summary">'
-  if f.name=='index.html':meta+='<script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@type':'Organization','name':'James AI Solutions','url':origin+'/'},separators=(',',':'))+'</script>'
+  if f.name=='index.html':meta+='<script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@type':'Organization','name':'James AI Solutions','url':origin+'/','email':'contact@jamesaisolutions.com','telephone':'+919019001934'},separators=(',',':'))+'</script>'
  else:meta='<meta name="robots" content="noindex,follow">'
  s=s.replace('</head>',meta+'</head>');f.write_text(s)
 (out/'robots.txt').write_text('User-agent: *\n'+('Allow: /\nSitemap: '+origin+'/sitemap.xml\n' if origin else 'Disallow: /\n'))
