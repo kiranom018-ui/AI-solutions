@@ -1,0 +1,20 @@
+{
+  "mode": "synthetic-read-only-showcase",
+  "adapters": [
+    "camera",
+    "audio",
+    "lab",
+    "telemetry",
+    "care",
+    "imaging"
+  ],
+  "profiles": [
+    "synthetic-gaushala",
+    "synthetic-dogcare",
+    "synthetic-other"
+  ],
+  "models_configured": false,
+  "clinical_thresholds": null,
+  "vantaras_data_or_endorsement": false,
+  "note": "Metadata fixture categories only; not real institutional settings or medical protocols."
+}

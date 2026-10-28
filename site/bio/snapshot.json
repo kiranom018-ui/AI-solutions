@@ -1,0 +1,703 @@
+{
+  "mode": "read-only-synthetic-snapshot",
+  "as_of": "2026-10-28T06:36:42+00:00",
+  "counts": {
+    "animals": 50,
+    "events": 359,
+    "open_reviews": 5,
+    "planned_products": 50
+  },
+  "animals": [
+    {
+      "animal_id": "SYN-001",
+      "species": "cattle",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-002",
+      "species": "cattle",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-003",
+      "species": "cattle",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-004",
+      "species": "cattle",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-005",
+      "species": "cattle",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-006",
+      "species": "cattle",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-007",
+      "species": "cattle",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-008",
+      "species": "cattle",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-009",
+      "species": "cattle",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-010",
+      "species": "cattle",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-011",
+      "species": "cattle",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-012",
+      "species": "cattle",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-013",
+      "species": "cattle",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-014",
+      "species": "cattle",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-015",
+      "species": "cattle",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-016",
+      "species": "cattle",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-017",
+      "species": "cattle",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-018",
+      "species": "cattle",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-019",
+      "species": "cattle",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-020",
+      "species": "cattle",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-021",
+      "species": "dog",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-022",
+      "species": "dog",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-023",
+      "species": "dog",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-024",
+      "species": "dog",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-025",
+      "species": "dog",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-026",
+      "species": "dog",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-027",
+      "species": "dog",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-028",
+      "species": "dog",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-029",
+      "species": "dog",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-030",
+      "species": "dog",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-031",
+      "species": "dog",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-032",
+      "species": "dog",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-033",
+      "species": "dog",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-034",
+      "species": "dog",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-035",
+      "species": "dog",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-036",
+      "species": "dog",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-037",
+      "species": "dog",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-038",
+      "species": "dog",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-039",
+      "species": "dog",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-040",
+      "species": "dog",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-041",
+      "species": "goat",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-042",
+      "species": "goat",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-043",
+      "species": "goat",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-044",
+      "species": "goat",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-045",
+      "species": "goat",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-046",
+      "species": "horse",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-047",
+      "species": "horse",
+      "life_stage": "senior"
+    },
+    {
+      "animal_id": "SYN-048",
+      "species": "horse",
+      "life_stage": "juvenile"
+    },
+    {
+      "animal_id": "SYN-049",
+      "species": "bird",
+      "life_stage": "adult"
+    },
+    {
+      "animal_id": "SYN-050",
+      "species": "bird",
+      "life_stage": "senior"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "SYN-AD-CAMERA-01",
+      "animal_id": "SYN-001",
+      "kind": "camera",
+      "source_id": "SYN-CAMERA",
+      "observed_at": "2026-10-28T09:00:00+05:30",
+      "payload": {
+        "asset_reference": "fixture:synthetic-camera-event-not-a-video",
+        "camera_id": "SIM-CAM-1",
+        "confidence": 0.86,
+        "event_class": "animal"
+      },
+      "review_reason": "Camera observation needs human context; no identity or intent inferred"
+    },
+    {
+      "event_id": "SYN-AD-LAB-01",
+      "animal_id": "SYN-001",
+      "kind": "lab",
+      "source_id": "SYN-LAB",
+      "observed_at": "2026-10-28T09:00:00+05:30",
+      "payload": {
+        "lab_flag": "flagged_by_source",
+        "reference_version": "SIM-LAB-v1",
+        "specimen_id": "SIM-SP-1",
+        "test_code": "creatinine",
+        "unit": "mg_dL",
+        "value": 2.1
+      },
+      "review_reason": "Source laboratory flag/unknown result: veterinarian review; no diet or treatment change"
+    },
+    {
+      "event_id": "SYN-AD-LAB-02",
+      "animal_id": "SYN-021",
+      "kind": "lab",
+      "source_id": "SYN-LAB",
+      "observed_at": "2026-10-28T09:00:00+05:30",
+      "payload": {
+        "lab_flag": "unflagged",
+        "reference_version": "SIM-LAB-v1",
+        "specimen_id": "SIM-SP-2",
+        "test_code": "example_marker",
+        "unit": "unit",
+        "value": 5
+      },
+      "review_reason": null
+    },
+    {
+      "event_id": "SYN-AD-TELEMETRY-01",
+      "animal_id": "SYN-001",
+      "kind": "telemetry",
+      "source_id": "SYN-TELEMETRY",
+      "observed_at": "2026-10-28T09:00:00+05:30",
+      "payload": {
+        "calibration_reference": "SIM-ONLY",
+        "device_id": "SIM-SHED-1",
+        "measurement": "ambient_temperature",
+        "quality": "simulated_ok",
+        "unit": "degC",
+        "value": 29
+      },
+      "review_reason": null
+    },
+    {
+      "event_id": "SYN-AD-TELEMETRY-02",
+      "animal_id": "SYN-002",
+      "kind": "telemetry",
+      "source_id": "SYN-TELEMETRY",
+      "observed_at": "2026-10-28T09:00:00+05:30",
+      "payload": {
+        "calibration_reference": "SIM-ONLY",
+        "device_id": "SIM-SHED-2",
+        "measurement": "humidity",
+        "quality": "stale",
+        "unit": "percent",
+        "value": null
+      },
+      "review_reason": "Sensor quality stale: inspect source; not an animal health diagnosis"
+    },
+    {
+      "event_id": "SYN-AD-CARE-01",
+      "animal_id": "SYN-001",
+      "kind": "care",
+      "source_id": "SYN-CARE",
+      "observed_at": "2026-10-28T09:00:00+05:30",
+      "payload": {
+        "note": "Fictional observation for workflow demo only.",
+        "status": "completed",
+        "task": "Morning care observation"
+      },
+      "review_reason": null
+    },
+    {
+      "event_id": "SYN-AD-CARE-02",
+      "animal_id": "SYN-021",
+      "kind": "care",
+      "source_id": "SYN-CARE",
+      "observed_at": "2026-10-28T09:00:00+05:30",
+      "payload": {
+        "note": "Synthetic missed task to exercise operator review.",
+        "status": "missed",
+        "task": "Scheduled check"
+      },
+      "review_reason": "Missed care task: accountable operator review"
+    },
+    {
+      "event_id": "SYN-AD-IMAGING-01",
+      "animal_id": "SYN-021",
+      "kind": "imaging",
+      "source_id": "SYN-IMAGING",
+      "observed_at": "2026-10-28T09:00:00+05:30",
+      "payload": {
+        "asset_reference": "fixture:no-clinical-image",
+        "body_region": "thorax",
+        "deidentification": "synthetic_no_patient",
+        "modality": "XR",
+        "study_id": "SIM-IMG-1"
+      },
+      "review_reason": "Imaging metadata registered; no image parsed or clinical interpretation performed"
+    },
+    {
+      "event_id": "SYN-AD-AUDIO-01",
+      "animal_id": "SYN-021",
+      "kind": "audio",
+      "source_id": "SYN-AUDIO",
+      "observed_at": "2026-10-28T09:00:00+05:30",
+      "payload": {
+        "asset_reference": "fixture:no-recording",
+        "duration_seconds": 10,
+        "observer_label": "unknown",
+        "recorder_id": "SIM-MIC-1",
+        "sample_rate_hz": 16000
+      },
+      "review_reason": "Audio metadata only; no sound processing, emotion, pain or infrasound inference"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "K9-Mind: vocal-event journal",
+      "species": "Dogs",
+      "phase": "B"
+    },
+    {
+      "id": 2,
+      "name": "K9-BioCollar: activity research logger",
+      "species": "Dogs",
+      "phase": "C"
+    },
+    {
+      "id": 3,
+      "name": "K9-OrthoGait: mobility review",
+      "species": "Dogs",
+      "phase": "B"
+    },
+    {
+      "id": 4,
+      "name": "K9-Derm & Stool: evidence capture",
+      "species": "Dogs",
+      "phase": "B"
+    },
+    {
+      "id": 5,
+      "name": "K9-NutriChef: diet-history assistant",
+      "species": "Dogs",
+      "phase": "B"
+    },
+    {
+      "id": 6,
+      "name": "K9-HomeGuardian: home observation",
+      "species": "Dogs",
+      "phase": "B"
+    },
+    {
+      "id": 7,
+      "name": "StrayGrid: authorized ABC/rabies records",
+      "species": "Dogs",
+      "phase": "B"
+    },
+    {
+      "id": 8,
+      "name": "ConflictShield: wildlife observation queue",
+      "species": "Wildlife; cattle at boundaries",
+      "phase": "C"
+    },
+    {
+      "id": 9,
+      "name": "VetTransit: ambulance journey log",
+      "species": "Multi-species",
+      "phase": "B"
+    },
+    {
+      "id": 10,
+      "name": "PoachGuard: conservation event evidence",
+      "species": "Wildlife",
+      "phase": "C"
+    },
+    {
+      "id": 11,
+      "name": "DroneTriage: recorded aerial review",
+      "species": "Wildlife; livestock",
+      "phase": "D"
+    },
+    {
+      "id": 12,
+      "name": "CargoScan: wildlife manifest review research",
+      "species": "Multi-species",
+      "phase": "D"
+    },
+    {
+      "id": 13,
+      "name": "OmniVet: radiology quality research",
+      "species": "Dogs; cats initially",
+      "phase": "C"
+    },
+    {
+      "id": 14,
+      "name": "Pachyderm Thermal: longitudinal image log",
+      "species": "Elephants; cattle; dogs in separate cohorts",
+      "phase": "C"
+    },
+    {
+      "id": 15,
+      "name": "WildPathology: laboratory annotation workbench",
+      "species": "Dogs; cats; cattle task-specific",
+      "phase": "C"
+    },
+    {
+      "id": 16,
+      "name": "LithoVet: 3D anatomy planning research",
+      "species": "Dogs first; species-specific later",
+      "phase": "D"
+    },
+    {
+      "id": 17,
+      "name": "VocalPain: ICU acoustic research journal",
+      "species": "Dogs first; separate species cohorts",
+      "phase": "D"
+    },
+    {
+      "id": 18,
+      "name": "OcularVet: eye-image referral workflow",
+      "species": "Dogs; cattle separate",
+      "phase": "C"
+    },
+    {
+      "id": 19,
+      "name": "NutriVault: feed kitchen and ration review",
+      "species": "Cattle; dogs; sanctuary species",
+      "phase": "A"
+    },
+    {
+      "id": 20,
+      "name": "MicrobiomeMap: sample provenance and research",
+      "species": "Dogs; cattle; wildlife separately",
+      "phase": "D"
+    },
+    {
+      "id": 21,
+      "name": "ToxicForage: uncertain plant-review queue",
+      "species": "Cattle; grazing species; dogs",
+      "phase": "B"
+    },
+    {
+      "id": 22,
+      "name": "HydrationGuard: intake measurement journal",
+      "species": "Dogs; cattle; sanctuary species",
+      "phase": "B"
+    },
+    {
+      "id": 23,
+      "name": "RumenSense: rumination observation research",
+      "species": "Cattle; buffalo; other ruminants separately",
+      "phase": "C"
+    },
+    {
+      "id": 24,
+      "name": "HydroKinematics: rehab progress capture",
+      "species": "Dogs; elephants in separate research",
+      "phase": "C"
+    },
+    {
+      "id": 25,
+      "name": "AyurVet: evidence and interaction review",
+      "species": "Multi-species",
+      "phase": "B"
+    },
+    {
+      "id": 26,
+      "name": "CogFeed: enrichment session planner",
+      "species": "Dogs; sanctuary species",
+      "phase": "B"
+    },
+    {
+      "id": 27,
+      "name": "SocialBond: interaction review",
+      "species": "Dogs; herd species separately",
+      "phase": "B"
+    },
+    {
+      "id": 28,
+      "name": "CoopCare: staff checklist coach",
+      "species": "Dogs; cattle; zoo species-specific",
+      "phase": "A"
+    },
+    {
+      "id": 29,
+      "name": "GeneArk: pedigree quality workbench",
+      "species": "Conservation species; cattle; dogs",
+      "phase": "C"
+    },
+    {
+      "id": 30,
+      "name": "EstrusPulse: reproductive observation diary",
+      "species": "Cattle first; dogs/equines separate",
+      "phase": "C"
+    },
+    {
+      "id": 31,
+      "name": "NeoBrood: neonatal observation console",
+      "species": "Calves; puppies; avian separately",
+      "phase": "D"
+    },
+    {
+      "id": 32,
+      "name": "Animal Passport: shared lifecycle record",
+      "species": "Cattle; dogs; extensible species",
+      "phase": "A"
+    },
+    {
+      "id": 33,
+      "name": "GauSeva: gaushala daily-care operations",
+      "species": "Cattle; buffalo configurable",
+      "phase": "A"
+    },
+    {
+      "id": 34,
+      "name": "GauFeed: procurement and feed-loss control",
+      "species": "Cattle",
+      "phase": "A"
+    },
+    {
+      "id": 35,
+      "name": "GauCalf: neonatal care record",
+      "species": "Cattle",
+      "phase": "B"
+    },
+    {
+      "id": 36,
+      "name": "GauMaternity: calving observation planner",
+      "species": "Cattle",
+      "phase": "B"
+    },
+    {
+      "id": 37,
+      "name": "GauUdder: hygiene, specimen and withdrawal log",
+      "species": "Lactating cattle",
+      "phase": "B"
+    },
+    {
+      "id": 38,
+      "name": "GauHoof: mobility and hoof-care journal",
+      "species": "Cattle",
+      "phase": "B"
+    },
+    {
+      "id": 39,
+      "name": "GauComfort: shed climate and welfare checks",
+      "species": "Cattle",
+      "phase": "B"
+    },
+    {
+      "id": 40,
+      "name": "GauFodder: crop, hay and silage inventory",
+      "species": "Cattle",
+      "phase": "B"
+    },
+    {
+      "id": 41,
+      "name": "GauSponsor: transparent care sponsorship ledger",
+      "species": "Cattle",
+      "phase": "A"
+    },
+    {
+      "id": 42,
+      "name": "GauCircular: manure and compost operations",
+      "species": "Cattle",
+      "phase": "B"
+    },
+    {
+      "id": 43,
+      "name": "GauRescue: intake and isolation capacity",
+      "species": "Cattle",
+      "phase": "B"
+    },
+    {
+      "id": 44,
+      "name": "GauSenior: lifelong comfort-care journal",
+      "species": "Cattle",
+      "phase": "B"
+    },
+    {
+      "id": 45,
+      "name": "K9Life: preventive-care timeline",
+      "species": "Dogs",
+      "phase": "A"
+    },
+    {
+      "id": 46,
+      "name": "K9Adopt: foster/adoption case coordination",
+      "species": "Dogs",
+      "phase": "B"
+    },
+    {
+      "id": 47,
+      "name": "K9Clinic: intake and follow-up assistant",
+      "species": "Dogs; cats configurable",
+      "phase": "A"
+    },
+    {
+      "id": 48,
+      "name": "K9Board: boarding/daycare operations",
+      "species": "Dogs",
+      "phase": "A"
+    },
+    {
+      "id": 49,
+      "name": "CareAcademy: multilingual SOP training",
+      "species": "Cattle; dogs; species-specific wildlife",
+      "phase": "A"
+    },
+    {
+      "id": 50,
+      "name": "OneWelfare: incident and disaster coordination",
+      "species": "Dogs; cattle; birds; other species",
+      "phase": "B"
+    }
+  ],
+  "clinical_models_configured": false,
+  "external_sources_connected": false,
+  "mutations_enabled": false
+}

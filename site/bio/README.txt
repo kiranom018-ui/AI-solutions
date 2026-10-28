@@ -1,0 +1,1 @@
+Public read-only synthetic showcase. Canonical source: site/bio. No runtime database, credentials, clinical models or institutional data. Build with the website build.py. Cloudflare Pages rewrites /bio/api/v1/presets through _redirects. Public snapshot updates require an explicit rebuild and deployment.
